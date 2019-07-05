@@ -1,0 +1,61 @@
+[
+  {
+    "id": 0,
+    "title": "Amazing Spider-man No. 378 - Maximum Carnage Part 3 of 14",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/1/03/51d3321265d75/portrait_uncanny.jpg",
+    "characters": ["Spider-man", "Venom", "Carnage"],
+    "price": 12.95,
+    "description": "Part 3 of our Maximum Carnage coverage! In Amazing Spider-Man #378 Eddie Brock arrives at Laguardia Airport and sees a newspaper headline announcing the return of Carnage. He transforms into Venom and feeling guilty for having a part in his creation, vows to destroy him. Meanwhile, Cloak and Spider-Man are nursing their wounds in the Holy Ghost Church. Cloak is beside himself with grief from losing Dagger to a surprise assault by Shriek."
+  },
+  {
+    "id": 1,
+    "title": "The Avengers - The Avengers VS. The X-Men",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/715QFKCY29L._SY450_.jpg",
+    "characters": [
+      "Iron Man",
+      "Captain America",
+      "Thor",
+      "Hulk",
+      "Black Widow",
+      "Spider-Man",
+      "Wolverine",
+      "Cyclops",
+      "Storm",
+      "Magneto"
+    ],
+    "price": 11.95,
+    "description": "The Avengers and the X-Men - the two most popular super-hero teams in history - go to war! This landmark event brings together Iron Man, Captain America, Thor, Hulk, Black Widow, Spider-Man, Wolverine, Cyclops, Storm, Magneto and more in the story that changes them forever!"
+  },
+  {
+    "id": 2,
+    "title": "Spawn - No. 1",
+    "image": "http://pm1.narvii.com/5851/8810fb4a1909ae28eb3e66301fe7d4702732e190_00.jpg",
+    "characters": ["Spawn"],
+    "price": 49.95,
+    "description": "After being murdered during a mission in Botswana when Director Wynn hires Simmons' friend and partner, Bruce Stinson (codename Chapel), to kill him, Simmons is sent to Hell due to his life as an assassin. Making a deal with the devil- known as Malebolgia- Simmons agrees to become a Hellspawn and serve Malebolgia if he is allowed to see his wife, Wanda, one last time. Malebolgia agrees, and returns Simmons to the living realm, but stripped of nearly all his memories, with a badly burned body, and a demonic guardian, named the Violator"
+  },
+  {
+    "id": 3,
+    "title": "The Silver Surfer - No. 1",
+    "image": "https://imgc.artprintimages.com/img/print/silver-surfer-by-stan-lee-and-moebius-no-1-silver-surfer-galactus_u-l-q132qop0.jpg",
+    "characters": ["Silver Surfer", "Galactus"],
+    "price": 10.95,
+    "description": "The Silver Surfer is a humanoid alien with metallic skin who can travel through space with the aid of his surfboard-like craft. Originally a young astronomer named Norrin Radd on the planet Zenn-La, he saved his homeworld from the planet devourer, Galactus, by serving as his herald. Imbued in return with a tiny portion of Galactus's Power Cosmic, Radd acquired vast power, a new body and a surfboard-like craft on which he could travel faster than light. Now known as the Silver Surfer, Radd roamed the cosmos searching for planets for Galactus to consume. When his travels took him to Earth, he met the Fantastic Four, who helped him rediscover his nobility of spirit. Betraying Galactus, the Surfer saved Earth but was exiled there as punishment."
+  },
+  {
+    "id": 4,
+    "title": "Wolverine - No. 67",
+    "image": "https://vignette.wikia.nocookie.net/marveldatabase/images/2/2e/Wolverine_Vol_2_67.jpg/revision/latest/scale-to-width-down/300?cb=20060808161038",
+    "characters": [
+      "Wolverine",
+      "Professor X",
+      "Jubilee",
+      "Colossus",
+      "Psylocke",
+      "Cyclops",
+      "Ice-man"
+    ],
+    "price": 22.95,
+    "description": "Believing that its's 1968 and that he has to complete his mission to find and eliminate Terry Austin, Logan has traveled to the former USSR country of Kazakh where he was gunned down and robbed by security forces while riding a bus and left for dead. As wild dogs try to feed on his body, Logan wakes up and lashes out with his claws. Finding that only his Wolverine costume was the only thing not stolen (and not remembering what it is) he puts it on and continues on his mission, with the hallucination of an angel woman following him."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "node-comics",
+  "version": "1.0.0",
+  "description": "Learningn the basics of Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Jared Avila",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
