@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Barriecito|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://png.pngtree.com/element_our/md/20180523/md_2f6f3339ab9d2ee052858b8a21549a90.jpg"
+    />
+    <script src="https://kit.fontawesome.com/2ea2777c51.js"></script>
+    <title>Node Comics</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+
+      html {
+        font-size: 62.5%;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 5rem 5rem 10rem;
+        line-height: 1.7;
+        font-family: "Roboto", sans-serif;
+        color: #555;
+        min-height: 100vh;
+        background: linear-gradient(to bottom right, #6b7bc4, #283986);
+      }
+      .comic__title-box {
+        background: linear-gradient(to bottom, #e15d5d, #e30000);
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        padding: 0 3rem;
+        transform: skew(-20deg);
+      }
+
+      .comic__title {
+        font-family: "Megrim", sans-serif;
+        color: white;
+        font-size: 3.25rem;
+        transform: skew(-20deg);
+      }
+      .info {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .info__image {
+        height: 30rem;
+      }
+      .info__chars-box {
+        padding: 2rem;
+        font-size: 1.4rem;
+      }
+      .info__chars-box h4 {
+        background: linear-gradient(to bottom, #e15d5d, #e30000);
+        padding: 1rem;
+        color: white;
+        letter-spacing: 0.7rem;
+        transform: skew(-20deg);
+      }
+      .info__chars {
+        list-style: none;
+      }
+      .info__chars-char {
+        padding: 0.2rem;
+        color: white;
+        font-size: 1.5rem;
+      }
+      .info__desc-box {
+        width: 40%;
+        font-size: 1.4rem;
+        background-color: rgb(224, 224, 224);
+        padding: 2rem;
+      }
+      .info__price-box {
+        background: linear-gradient(to bottom, #e15d5d, #e30000);
+        width: fit-content;
+        padding: 1rem 2rem;
+        font-size: 1.9rem;
+        color: white;
+        margin: 1.4rem;
+        border-radius: 2px;
+        cursor: pointer;
+        box-shadow: none;
+        transition: all 250ms ease;
+      }
+      .info__price-box:hover,
+      .info__price-box:active {
+        background: linear-gradient(to bottom, #f87575, #fd2424);
+        box-shadow: 0rem 0.6rem 1rem rgba(75, 75, 75, 0.61);
+        transform: translateY(-0.5rem);
+      }
+      .back {
+        font-size: 1.6rem;
+        color: white;
+        margin: 1.4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="comic__title-box">
+      <h1 class="comic__title">Maxium Carnage part 3 of 14</h1>
+    </div>
+    <div class="info">
+      <img
+        class="info__image"
+        src="https://i.annihil.us/u/prod/marvel/i/mg/1/03/51d3321265d75/portrait_uncanny.jpg"
+        alt="comic image"
+      />
+      <div class="info__chars-box">
+        <h4>Featured Characters</h4>
+        <ul class="info__chars">
+          <li class="info__chars-char">SpiderMan</li>
+          <li class="info__chars-char">Vemon</li>
+          <li class="info__chars-char">Carnage</li>
+          <li class="info__chars-char">Cloak</li>
+          <li class="info__chars-char">Shriek</li>
+          <li class="info__chars-char">Demogoblin</li>
+          <li class="info__chars-char">Captain America</li>
+        </ul>
+      </div>
+      <div class="info__desc-box">
+        <p class="info__desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+          excepturi nulla, quis rem repudiandae, odit asperiores soluta magnam
+          dolorem accusantium aperiam cumque quae voluptas velit fuga in impedit
+          error saepe reiciendis eius adipisci, eveniet consectetur doloribus!
+          Pariatur nisi provident, quas quo veritatis eius molestiae itaque
+          nihil mollitia nam aspernatur minima corporis cupiditate sit quae
+          minus doloribus consequatur animi quis voluptatem maiores! Et,
+          blanditiis explicabo sed, laudantium iste numquam ex possimus commodi
+          amet ipsam odio quidem nam, quae aliquid eveniet quibusdam voluptatem
+          voluptate provident saepe aut? Quam qui voluptate laudantium beatae!
+        </p>
+      </div>
+    </div>
+    <div class="info__price-box">
+      <p class="info__price">Price: $24.99 <i class="fas fa-cart-plus"></i></p>
+    </div>
+    <a class="back" href="/">Back</a>
+  </body>
+</html>
