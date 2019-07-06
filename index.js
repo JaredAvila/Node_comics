@@ -8,6 +8,10 @@ const homeTemp = fs.readFileSync(
   `${__dirname}/templates/home-template.html`,
   "utf-8"
 );
+const comicTemp = fs.readFileSync(
+  `${__dirname}/templates/comic-template.html`,
+  "utf-8"
+);
 
 const port = 8000;
 
@@ -21,7 +25,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, {
       "Content-type": "text/html"
     });
-    res.end("Comic page");
+    res.end(comicTemp);
   } else {
     res.writeHead(404, {
       "Content-type": "text/html"
